@@ -55,6 +55,7 @@ main .About .container .row .col-md-6 img{
     width: 400px;
     border: 1px solid white;
     box-shadow: 0 0 5px;
+    border-radius : 20px;
 }
 main .Education{
     background-color: black;
