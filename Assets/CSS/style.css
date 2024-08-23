@@ -55,7 +55,7 @@ main .About .container .row .col-md-6 img{
     width: 400px;
     border: 1px solid white;
     box-shadow: 0 0 5px;
-    border-radius : 20px;
+    border-radius: 30px;
 }
 main .Education{
     background-color: black;
@@ -139,4 +139,16 @@ main .contactus .container form .form-group .btn:hover{
     color: blue;
     
 }
-
+@media screen and (max-width : 800px) {
+    main .hero{
+        height: 50vh;
+    }
+    main .hero .container .row .col-sm-3 h1{
+        font-size: large;
+    }
+    main .hero .container .row .col-sm-3 p{
+        font-size: small;
+        text-align: justify;
+        width: 200px;
+    }
+}
