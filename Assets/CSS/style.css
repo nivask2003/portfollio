@@ -30,6 +30,9 @@ main .hero .container .row .col-md-6 h1{
     font-weight: bold;
     font-size: xxx-large;
 }
+main .hero .container .row .col-md-6 p{
+    text-align: justify;
+}
 main .hero .container .row .col-md-6 a{
     width: 200px;
 }
@@ -40,8 +43,6 @@ main .hero .container .row .col-md-6 a:hover{
 }
 main .hero .container .row .col-md-6 img{
     transform: scaleX(-1);
-    position: relative;
-    animation: moveRightToLeft 5s linear infinite;
 }
 main .About{
     background-color: black;
